@@ -19,6 +19,7 @@
 header {
     display: flex;
     padding: 25px;
+    justify-content: flex-end;
 }
 
 .nav-list {
