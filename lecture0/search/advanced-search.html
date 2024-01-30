@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+
+    <link rel="stylesheet" href="styles-reset.css">
+    <link rel="stylesheet" href="styles-advanced-search.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="row nav">
+            <div class="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                    alt="google logo">
+            </div>
+            <div class="navbar">
+                <a href="index.html">Back to Google Search</a>
+            </div>
+        </div>
+        <div class="row label">
+            <label class="search-title">Advanced Search</label>
+        </div>
+    </header>
+
+    <!-- search form -->
+    <div class="row search-form">
+        <form id="advanced-search" method="get" action="https://google.com/search">
+            <label for="advanced-search" id="find-pages">Find pages with...</label>
+            <div class="field">
+                <label for="">all these words:</label>
+                <input type="text" name="as_q" id="">
+            </div>
+            <div class="field">
+                <label for="">this exact word or phrase:</label>
+                <input type="text" name="as_epq" id="">
+            </div>
+            <div class="field">
+                <label for="">any of these words:</label>
+                <input type="text" name="as_oq" id="">
+            </div>
+            <div class="field">
+                <label for="">none of these words:</label>
+                <input type="text" name="as_eq" id="">
+            </div>
+            <div class="field submit">
+                <button type="submit" value="">Advanced Search</button>
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-section">
+            <p>Ukraine</p>
+        </div>
+        <br>
+        <div class="footer-section">
+            <div>
+                <ul class="nav-list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">How Search Works</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="nav-list">
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

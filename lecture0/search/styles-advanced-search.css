@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+.row.nav {
+    justify-content: space-between;
+    height: 65px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.row.nav .navbar {
+    display: flex;
+    padding-top: 10px
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.row label.search-title {
+    padding: 10px 0 20px 30px;
+    color: #d93025;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.row.label {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.row.search-form {
+    display: flex;
+    justify-content: flex-start;
+    width: 700px;
+    margin: 40px 45px;
+    flex-grow: 1;
+}
+
+.row.search-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field input[type="text"] {
+    width: 500px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 30px;
+    padding: 1px 8px;
+}
+
+.field input[type="text"]:focus {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+        border: 1px solid #4d90fe;
+        outline: none;
+}
+
+.row.search-form label {
+    padding-right: 10px;
+}
+
+.field.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.field.submit button {
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.field.submit button:hover {
+    background-color: #357ae8;
+}
+
+.field.submit button:active {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+    background: #357ae8;
+    border: 1px solid #2f5bb7;
+    border-top: 1px solid #2f5bb7;
+}
+
+footer {
+    display: block;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    color: inherit;
+
+}
+
+#find-pages {
+    font-size: 16px;
+}
