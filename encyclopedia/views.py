@@ -32,4 +32,4 @@ def search(request):
     if query in entry_list:
         return HttpResponseRedirect(reverse(f"encyclopedia:wiki/{query}"))
 
-    return render(request, "encyclopedia/search.html")
+    return render(request, "encyclopedia/index.html")
