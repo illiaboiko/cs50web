@@ -5,6 +5,8 @@ from . import views
 app_name = "encyclopedia"
 urlpatterns = [
     path("", views.index, name="index"),
-    path("wiki/<str:title>", views.show_article, name="show_article"),
-    path("search/", views.search, name="search")
+    path("wiki/<str:title>", views.show_article, name="article"),
+    path("search/", views.search, name="search"),
+    path("random/", views.random_page, name="random"),
+    path("create/", views.create, name="create"),
 ]
